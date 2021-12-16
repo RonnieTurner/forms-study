@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Forms</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+  <label for="username">Your Name</label>
+  <input type="text" name="user-name" id="username" />
+  <label for="useremail">Your Email Address</label>
+  <input type="email" name="user-email" id="useremail" />
+  <label for="userage">Your Age</label>
+  <input type="number" step="1" min="18" max="120" name="user-age" id="userage" />
+  <label for="userpassword">Your Password</label>
+  <input type="password" name="user-password" id="userpassword" />
+  <label for="userbirthday">Your Birthday</label>
+  <input type="date" name="user-birthday" id="userbirthday" />
+  <hr />
+  <h2>How should we verify your account?</h2>
+  <div class="form-control-inline">
+  <input type="radio" name="verify" id="verify-text-message" value="text" />
+  <label for="verify-text-message">Text Message (sms)</label>
+  </div>
+  <div class="form-control-inline">
+  <input type="radio" name="verify" id="verify-phone" verify="phone" />
+  <lablel for="virify-phone">Phone Call</lablel>
+</div>
+<div class="form-control-inline">
+  <input type="radio" name="verify" id="verify-email" verify="email" />
+  <label for="verify-email">Email</label>
+</div>
+  <button type="submit">Submit</button>
+</body>
+
+</html>
