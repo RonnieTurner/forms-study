@@ -1,6 +1,20 @@
 body {
-  background-color: rgb(75, 74, 74);
+  background-color: rgb(24, 23, 23);
   margin: 8rem;
+}
+
+h1 {
+  color:rgb(234, 231, 235);
+}
+
+form {
+  background-color: rgb(241, 239, 239);
+  padding:1rem 2rem;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
 }
 
 input, textarea,
@@ -16,7 +30,7 @@ select {
 }
 
 input:focus {
-  background-color: rgb(113, 71, 155);
+  background-color: rgb(194, 157, 235);
   color: rgb(32, 5, 63);
   border-color: rgb(32, 5, 63);
 }
