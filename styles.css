@@ -3,10 +3,21 @@ body {
   margin: 8rem;
 }
 
-input {
-  width: 20rem;
+input, textarea {
+  width: 100%;
   display: block;
   margin-bottom: 1rem;
+  box-sizing: border-box;
+  font: inherit;
+  border: 1px solid rgb(184, 184, 184);
+  padding: 0.25rem;
+  color: rgb(61, 58, 58);
+}
+
+input:focus {
+  background-color: rgb(113, 71, 155);
+  color: rgb(32, 5, 63);
+  border-color: rgb(32, 5, 63);
 }
 
 button {
